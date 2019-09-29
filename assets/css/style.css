@@ -263,3 +263,83 @@ input[type=submit] {
     float: right;
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  /*whole file*/
+
+  .container {
+    padding: 0 20px;
+  }
+
+  section.main-section {
+    max-width: 768px;
+  }
+
+  /* index.html */
+
+  .auth-image {
+    width: 300px;
+  }
+
+  /******portfolio****/
+
+  .work {
+    width: 48%;
+    margin-bottom: 0;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+  @media screen and (max-width: 640px) {
+
+    /******wholefile****/
+    
+    #masthead {
+      position: static;
+      margin-bottom: 20px;
+    }
+    
+      .container {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #logo,
+      nav {text-align: center;
+        float: none;
+        display: block;
+        width: 100%;
+      }
+    
+      nav {
+        margin: 10px 0;
+      }
+    
+      #main-container {padding: 0 20px;
+        margin: 0 auto;
+      }
+    
+      section.main-section {
+        padding: 20px;
+      }
+    
+      /*index*/
+    
+      .auth-image {margin: 0;
+        float: none;
+        width: 100%;
+      }
+    
+      /* portfolio*/
+    
+      .work {margin-bottom: 0;
+        width: 100%;
+      }
+    
