@@ -216,6 +216,50 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media (max-width: 980px){
+@media screen and (min-width: 980px) {
+  /**** portfolio-wholefile ***/
 
+  .work {
+    width: 47%;
+    margin-bottom: 0;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  /*****index*****/
+
+  .container {
+    padding: 0 50px;
+  }
+
+  section.main-section {max-width: 600px;
+  }
+
+  .auth-image {width: 250px;
+  }
+
+  /**** portfolio-wholefile ***/
+
+  .work {margin-bottom: 0;
+    width: 48%;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
 }
